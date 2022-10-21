@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 class Title extends React.Component {
   render() {
     const { headline } = this.props;
-    return <h2>{ headline }</h2>;
+
+    return <h2 className="section-title">{ headline }</h2>;
   }
 }
 

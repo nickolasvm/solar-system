@@ -1,3 +1,33 @@
-.App {
-  text-align: center;
+* {
+  font-family: “Lucida Grande” , “Lucida Sans Unicode” , sans-serif;
+  font-size: 40px;
+  font-variant: small-caps;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+}
+
+.header {
+  display: grid;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.header-title {
+  font-size: 2rem;
+}
+
+.header-title, .ellipse {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.ellipse {
+  border: solid 3px rgba(255, 255, 255, 0.6);
+  border-radius: 100%;
+  margin-left: 20px;
+  transform: matrix(-1.5, 1, 0.7, 0.5, 150, 0);
+  width: 4.5rem;
 }
