@@ -7,6 +7,7 @@
 body {
   background-image: url('./images/background.png');
   color: white;
+  text-align: center;
 }
 
 .header {
@@ -17,6 +18,7 @@ body {
 
 .header-title {
   font-size: 2rem;
+  text-align: left;
 }
 
 .header-title, .ellipse {
@@ -30,4 +32,50 @@ body {
   margin-left: 20px;
   transform: matrix(-1.5, 1, 0.7, 0.5, 150, 0);
   width: 4.5rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+}
+
+.planets-list {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.planet-img {
+  width: 2rem;
+}
+
+.mercurio {
+  width: 0.6rem;
+}
+
+.venus {
+  width: 1.9rem;
+}
+
+.marte {
+  width: 1rem;
+}
+
+.jupiter {
+  width: 9rem;
+}
+
+.saturno {
+  width: 7rem;
+}
+
+.urano {
+  width: 2.7rem;
+}
+
+.netuno {
+  width: 2.5rem;
+}
+
+.planet-name {
+  align-self: flex-end;
 }
